@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kousthubha Krishna CH - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script type="module" crossorigin src="/assets/index-BGpWQpV6.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-w6MpGiQ4.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-kR0tPQgj.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">
+            <span class="logo-text">KK</span>
+        </div>
+        <div class="nav-menu">
+            <a href="#home" class="nav-link" data-section="home">Home</a>
+            <a href="#about" class="nav-link" data-section="about">About</a>
+            <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+            <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+            <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+            <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+        </div>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <canvas id="hero-canvas"></canvas>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">KOUSTHUBHA</span>
+                </h1>
+                <p class="hero-subtitle">Software Development Engineer II</p>
+                <p class="hero-description">Crafting scalable solutions and innovative experiences at Amazon</p>
+                <div class="hero-cta">
+                    <button class="btn-primary" data-section="projects">View Projects</button>
+                    <button class="btn-secondary" data-section="contact">Get In Touch</button>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        I'm a passionate Software Development Engineer with expertise in building large-scale systems 
+                        and innovative solutions. Currently working at Amazon, I specialize in designing and implementing 
+                        complex projects that handle millions of transactions and users.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="400">0</span>
+                            <span class="stat-label">K+ Sellers Processed</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="1">0</span>
+                            <span class="stat-label">B+ Product Listings</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="500">0</span>
+                            <span class="stat-label">TPS Throughput</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="95">0</span>
+                            <span class="stat-label">% Detection Accuracy</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Development Engineer II</h3>
+                            <span class="company">Amazon</span>
+                            <span class="duration">Sept 2023 - Present</span>
+                            <span class="location">Hyderabad, India</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Designed and implemented a re-arch project ("LEGO") handling tax and invoicing eligibility + enrollment into multiple programs, processing ~400K sellers and ~1 billion product listings in Amazon Europe and Japan, sustaining an average throughput of 500 TPS.</li>
+                                <li>Experimented and developed an invoice quality detection system for 3P sellers on Amazon B2B using AWS Textract and Custom Adapters. Created a balanced dataset of 4K invoices, trained the model, and improved detection accuracy from ~45% to 95% across 15 fields.</li>
+                                <li>Built front end for an LLM based chatbot for 3P sellers on Amazon by reusing UI components and a traceability piece of the back-end. The pilot version was launched in the UK.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Development Engineer I</h3>
+                            <span class="company">Amazon</span>
+                            <span class="duration">Sept 2021 - Sept 2023</span>
+                            <span class="location">Hyderabad, India</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Delivered a solution ensuring compliance with the Deemed Reseller Law in Europe, restricting sellers from shipping products without a valid VAT registration. This project contributes to a Gross Merchandise Value (GMV) of $10M/month.</li>
+                                <li>Conducted large-scale data mining on Amazon product data in Europe: Processed 8B product listings (terabytes of data) to analyze service performance. Identified 21M products with missing attributes, improving product listing accuracy.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Software Development Engineer Intern</h3>
+                            <span class="company">Amazon</span>
+                            <span class="duration">Feb 2021 - Aug 2021</span>
+                            <span class="location">Hyderabad, India</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Contributed to a new service setup for modernizing Amazon's concession issuance platform. Led two service migrations, improving system resiliency and efficiency, and implemented new API requirements.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Summer Analyst</h3>
+                            <span class="company">Goldman Sachs</span>
+                            <span class="duration">May 2020 - Jun 2020</span>
+                            <span class="location">Remote</span>
+                        </div>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Developed a client-server application that identified 90% of database access violations in production.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Career Development Portal</h3>
+                        <p class="project-description">A comprehensive platform for career development and skill tracking built with Vue.js, Node.js, and MongoDB.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">IoT Bus Tracking System</h3>
+                        <p class="project-description">Real-time bus tracking system with IoT integration using Python, Django, and MySQL for efficient public transportation.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">IoT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Join Chat</h3>
+                        <p class="project-description">Business networking mobile application built with Android and Firebase for professional connections and communication.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Android</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Java</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link">Live Demo</a>
+                                <a href="#" class="project-link">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Goa Virtual Tourist Guide</h3>
+                        <p class="project-description">AI-powered virtual tourist guide using deep learning and image recognition to provide personalized travel recommendations.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Android</span>
+                            <span class="tech-tag">Image Recognition</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-category">
+                    <h3 class="category-title">Programming Languages</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">☕</div>
+                            <span class="skill-name">Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🐍</div>
+                            <span class="skill-name">Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📜</div>
+                            <span class="skill-name">JavaScript</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">⚡</div>
+                            <span class="skill-name">C/C++</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Cloud & DevOps</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">☁️</div>
+                            <span class="skill-name">AWS</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🐳</div>
+                            <span class="skill-name">Docker</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Web Technologies</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">⚛️</div>
+                            <span class="skill-name">React</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🟢</div>
+                            <span class="skill-name">Node.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">💚</div>
+                            <span class="skill-name">Vue.js</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🐘</div>
+                            <span class="skill-name">PHP</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🐍</div>
+                            <span class="skill-name">Django</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🌶️</div>
+                            <span class="skill-name">Flask</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="category-title">Databases</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">🗄️</div>
+                            <span class="skill-name">Oracle</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🐬</div>
+                            <span class="skill-name">MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📊</div>
+                            <span class="skill-name">DynamoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🍃</div>
+                            <span class="skill-name">MongoDB</span>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🔥</div>
+                            <span class="skill-name">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always interested in discussing new opportunities, innovative projects, and collaborations.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <span class="contact-text">krishnakousthubha@gmail.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <span class="contact-text">+91 9182200436</span>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💼</span>
+                            <a href="https://linkedin.com/in/kousthubha-krishna-ch" class="contact-link">LinkedIn</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">🐙</span>
+                            <a href="https://github.com/KousthubhaKrishna" class="contact-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Kousthubha Krishna CH. All rights reserved.</p>
+                <p>Built with passion and cutting-edge technologies.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
